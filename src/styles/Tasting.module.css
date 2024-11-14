@@ -1,0 +1,60 @@
+.bodyContainer {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+.questionContainer {
+  border: 1px solid #e3e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(56, 54, 54, 0.25);
+  padding: 20px;
+}
+
+.questionLabel {
+  margin: 20px;
+  text-align: center;
+  font-size: larger;
+}
+
+.submitContainer {
+  margin: 20px;
+  text-align: center;
+}
+
+.showDebug {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.showDebugLabel {
+  margin: 10px;
+}
+
+.debugPane {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 80vw;
+}
+
+.debugSection {
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.sliderLabel {
+  display: inline;
+  margin: 10px;
+}
+
+.errorContainer {
+  height: 3vh;
+  margin-top: 2vh;
+  color: darkred;
+}

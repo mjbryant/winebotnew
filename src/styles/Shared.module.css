@@ -1,0 +1,15 @@
+.submitButton {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  height: 25px;
+  background-color: #add8e6;
+}
+
+.disabledButton {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  height: 25px;
+  background-color: gray;
+}

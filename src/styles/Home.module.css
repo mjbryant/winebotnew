@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.bodyContainer {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid;
+  user-select: none;
+}
+
+.item:hover {
+  border: 2px solid;
+}
+
+.showDebug {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.debugLabel {
+  margin: 10px;
+}
+
+.questionOrderLabel {
+  margin: 10px;
+}
+
+.debugSettings {
+  position: fixed;
+  bottom: 10vh;
+  right: 0;
+  margin: 20px;
+}

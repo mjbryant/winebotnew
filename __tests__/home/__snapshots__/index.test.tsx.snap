@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render without throwing an error 1`] = `
+[
+  <div>
+    <a
+      className="menuLink"
+      href="/home"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="menuLink"
+      href="/wines"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Wines
+    </a>
+  </div>,
+  <main
+    className="main"
+  >
+    <div
+      className="thing"
+    >
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        View wines
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        Blind taste
+      </div>
+    </div>
+  </main>,
+]
+`;

@@ -1,0 +1,68 @@
+.wine {
+  display: block;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: [first] 15vw [second] 70vw;
+  grid-auto-rows: 3.3vh;
+}
+
+.wineHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  margin-left: 10px;
+}
+
+.displayName {
+  display: inline;
+  margin: 10px;
+  font-size: 25px;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.editableValue {
+  cursor: pointer;
+}
+
+.label {
+  display: inline;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.toggleWrapper {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.toggle {
+  display: inline;
+  border: 1px solid;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.toggleNeg1 {
+  background-color: rgb(240, 73, 73);
+}
+
+.toggle0 {
+  border: 1px solid;
+}
+
+.toggle1 {
+  background-color: rgb(155, 239, 155);
+}
+
+.toggle2 {
+  background-color: rgb(7, 147, 7);
+}

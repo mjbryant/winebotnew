@@ -1,0 +1,11 @@
+.nav {
+  background-color: rgb(199, 175, 175);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuLink {
+  margin-left: 15px;
+  margin-right: 15px;
+}
